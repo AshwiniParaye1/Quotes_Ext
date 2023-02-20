@@ -1,3 +1,14 @@
+
+body{
+background-color: #2c5d63;
+justify-content: center;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+padding: 1rem;
+text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 @gray-darker: #444444;
 @gray-dark: #696969;
 @gray: #999999;
