@@ -25,7 +25,12 @@ fetch("https://api.quotable.io/random")
     
     const quotesText = quotesData.content;
     console.log("quotesData====",quotesData)
+
     const quoteElement = document.getElementById('quoteElement')
-    quoteElement.innerHTML = quotesText;
+    //accessing <p></p> from popup.html
+    
+    quoteElement.innerHTML = quotesText; 
+    //assigning quotesText to <p></p> of html
+
     console.log("quoteText==", quotesText)
 })
